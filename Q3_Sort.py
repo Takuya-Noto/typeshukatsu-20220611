@@ -16,7 +16,9 @@ def sort(array) -> list:
 
     # ここから記述
 
+    # 順方向に探索する用のインデックス
     si = 0
+    # 逆方向に探索する用のインデックス
     ei = len(array) - 1
 
     while(True):
